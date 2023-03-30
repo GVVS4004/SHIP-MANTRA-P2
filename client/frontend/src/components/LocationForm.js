@@ -49,7 +49,7 @@ const LocationForm = () => {
       <h2>Enter a location:</h2>
       {/* Map component used to render a Google map and the markers on it. */}
       <Map
-        googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${process.env.SECRET_KEY}`}
+        googleMapURL={`https://maps.googleapis.com/maps/api/js?${process.env.SECRET_KEY}`}
         loadingElement={<div style={{ height: '100%' }} />}
         containerElement={<div style={{ height: '400px' }} />}
         mapElement={<div style={{ height: '100%' }} />}
