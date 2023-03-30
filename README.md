@@ -62,10 +62,20 @@ Once you have the app running, follow these steps to share your location:
 9. If a client gets dissconnected due to any reason the marker gets vanished immidiately see this ![afterSecondClientDissconnected](https://user-images.githubusercontent.com/93395036/228966272-a08f9d95-28d3-4d71-bcc9-512daa287f27.png)
 after the second client got disconnected the third client which is at khammam has only first clients location info which is at Hyderabad.
 
+
+Watch the video to know the usage
+
+
+https://user-images.githubusercontent.com/93395036/228970535-d888cfa1-7eae-48de-ba2c-01b06275b27e.mp4
+
+
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
+
+
 
 ## License
 
