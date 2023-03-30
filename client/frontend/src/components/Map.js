@@ -21,6 +21,7 @@ const Map = withScriptjs(
       clients.map((client)=>{
         locations.push({id:client.client_id,latitude:client.location.latitude,longitude:client.location.longitude});
       })
+      console.log(locations);
       setLocations(locations);
     })},[socket]);
 

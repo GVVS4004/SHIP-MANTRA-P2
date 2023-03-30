@@ -32,13 +32,13 @@ io.on("connection",(socket)=>{
         socket.broadcast.emit("active clients",clients);
     }) 
     // on disconnection of a client remove the clients information from the "clients" list 
-    socket.on("disconnect",(data)=>{
+    socket.on("disconnect",()=>{
         console.log(socket.id,"client has dissconnected");
         const index=clients.findIndex((client)=>client.client_id===socket.id);
         if (index!=-1){
             clients.splice(index,1);
         }
-        socket.broadcast.emit("active clients ",clients);
+        socket.broadcast.emit("active clients",clients);
     }) 
 }); 
 
