@@ -9,6 +9,13 @@ This is an application where you can share your real time location with all the 
 * Clients can share their location in real-time with other clients using Socket.IO.
 * The server tracks the location of all active clients and shares them with other clients in real-time.
 * The application uses Google Maps API to render the map and markers.
+## Dependencies
+* Nodemon
+* React
+* Socket.io-client
+* Socket.io
+* React-google-maps  
+ See the documentation for react-google-maps https://www.npmjs.com/package/react-google-maps
 
 ## Installation
   1. Clone the repository to your local machine:
